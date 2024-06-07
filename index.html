@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Brand</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        CarBrand
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="models.html">Models</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header class="hero-section">
+    <div class="hero-content text-center">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="p-5 text-center bg-image rounded-3" style="
+            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative; /* Make sure the parent is positioned relatively */
+        ">
+        
+        <div class="hero-text">
+                <h1 class="display-4 text-light" style="font-family: 'Roboto', sans-serif;">Welcome to CarBrand</h1>
+                <p class="lead text-light">Excellence in Motion</p>
+                <a class="btn btn-primary btn-lg" href="models.html" role="button">Explore Models</a>
+        </div>
+        </div>
+    </div>
+    </div>
+</header>
+
+<section id="models" class="container my-5">
+    <h2 class="text-center mb-4">Our Car Models</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Assets/Home/G63.jpg" class="card-img-top" alt="Car Model 1">
+                <div class="card-body">
+                    <h5 class="card-title">G63 Cardinal Red</h5>
+                    <a href="Models/G63.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Assets/Home/Accent.jpg" class="card-img-top" alt="Car Model 2">
+                <div class="card-body">
+                    <h5 class="card-title">Hyundai Accent</h5>
+                    <a href="Models/Accent.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Assets/Home/Acura.jpg" class="card-img-top" alt="Car Model 3">
+                <div class="card-body">
+                    <h5 class="card-title">Acura TLX</h5>
+                    <a href="Models/Acura.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="stories" class="container my-5">
+    <h2 class="text-center mb-4">Featured Stories</h2>
+    <div id="carouselStories" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators custom-indicators">
+            <li data-target="#carouselStories" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselStories" data-slide-to="1"></li>
+            <li data-target="#carouselStories" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="Assets/Stories/tokyo-racing.html">
+                            <div class="featured-story" style="background-image: url('Assets/Stories/toyota-racing-header.jpg');">
+                                <div class="featured-story-overlay">
+                                    <h5 class="card-title">Toyota Racing</h5>
+                                    <p class="card-text">It’s summer, meaning Toyota Racing is turning up the heat.</p>
+                                    <a href="Assets/Stories/tokyo-racing.html" class="btn btn-primary">Join Us</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="Assets/Stories/car-expo.html">
+                            <div class="featured-story" style="background-image: url('Assets/Stories/ultimate-car-header.jpg');">
+                                <div class="featured-story-overlay">
+                                    <h5 class="card-title">The Ultimate Car Expo 2021</h5>
+                                    <p class="card-text">Experience the pinnacle of automotive innovation and excitement at The Ultimate Car Expo 2021.</p>
+                                    <a href="Assets/Stories/car-expo.html" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="Assets/Stories/ev-expo.html">
+                            <div class="featured-story" style="background-image: url('Assets/Stories/ev-expo-header.jpg');">
+                                <div class="featured-story-overlay">
+                                    <h5 class="card-title">Electric Future: EV Expo 2021</h5>
+                                    <p class="card-text">Get ready to witness the future of mobility at the EV Expo 2021, where innovation meets sustainability.</p>
+                                    <a href="Assets/Stories/ev-expo.html" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev custom-carousel-control" href="#carouselStories" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon custom-carousel-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next custom-carousel-control" href="#carouselStories" role="button" data-slide="next">
+            <span class="carousel-control-next-icon custom-carousel-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2021 CarBrand. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
